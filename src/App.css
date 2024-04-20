@@ -1,38 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 .App {
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+.my-btn-slot{
+font-family: Arial, Helvetica, sans-serif;
+height: 70px;
+font-size: small;
+width:110px;
+font-weight: lighter;
+background-color: #fefffe;
+padding:5px;
+border: 1.5px ridge grey;
+box-shadow: none;
+border-radius: 20px;
+align-items: center;
+cursor: pointer;
+}
+.my-btn-slot:hover{
+  background-color: #24430c;
+color: #fcfdfb;
+border: solid 2px #fcfdfc;
+
+}
+.my-btn{
+
+font-family: Arial, Helvetica, sans-serif;
+height: 60px;
+width:100px;
+font: size 5px;;
+background-color: #fefffe;
+padding: 20px 32px;
+border: 2px ridge;
+box-shadow: none;
+border-radius: 15px;
+align-items: center;
+cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.my-btn:hover{
+
+
+
+
+background-color: #dff0d2;
+color: #498527;
+border: solid 2px #498527;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.amrutum-nav{
+background-color: rgba(255, 247, 226, 1);
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.dp{
+  position:absolute;
+  bottom: 15px;
+  left:20px;
+  height: 159px;
+  width:165px;
+  border:solid white 4px;
+  border-radius:50%;
 }
+.profile-div{
+width: 1220px;
+height: 250px;
+margin-top: 83px;
+border: 1px;
+border-style: ridge;
+border-radius: 25px;
+position: relative;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.about-header{background: rgb(237,247,207);
+  background: linear-gradient(90deg, rgba(237,247,207,1) 27%, rgba(255,255,255,1) 78%);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+.profile-first-half{
+  height: 135px;
+  border-top-right-radius:20px 20px;
+  border-top-left-radius:20px 20px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/2620/7166/a35e1a20facdf3d56db655152bcc6d78?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Eg5d0uuq~ixYHa3F97b7930t6MElpaAnUQcvDt3KmS0IOD8zIFTsNJ5CxK6TmsX7WGwXwQJOqa-nsqzyMVsNF-4BCunYYpZrsiGthbnl1q2ZvoUXdTe333y~juGgEZPzYS8fB~d7N49Wfb8I3TYGepMnKnF4BHrFgLGLE7~M5Tf5qGO0Dlud3FREfjZwGcQEFQQvyG-4ek3Lujgaew5WfQzKFLv5IBuWBy2ZcSDvjnTMR-GcEJizih1SXXrtyaisCKkbu26uQZ11xQ5R6UsUsw42S1z9g-iJXNJ-dctW~TIX4ipohNUC0TODqaD0ATz0dTb~yaGlGP7f5l4t5Bou0Q__");
+  opacity: 70%;
+}
+.profile-second-half{
+  height: 125px;
+  border-bottom-left-radius:20px 20px;
+  border-bottom-right-radius:20px 20px;
+  background-color:rgba(255, 251, 242, 1);  ;
 }
